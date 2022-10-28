@@ -3,11 +3,11 @@ VPC_NAME="My_VPC"
 VPC_CIDR="10.0.0.0/16"
 SUBNET_PUBLIC_CIDR="10.0.0.0/24"
 SUBNET_PUBLIC_AZ="us-west-2b"
-SUBNET_PUBLIC_NAME= "pub_subnet"
+SUBNET_PUBLIC_NAME="pub_subnet"
 SUBNET_PRIVATE_CIDR="10.0.1.0/24"
 SUBNET_PRIVATE_AZ="us-west-2b"
-SUBNET_PRIVATE_NAME=  "pvt_subnet"
-SEC_NAME= "my_sec"
+SUBNET_PRIVATE_NAME="pvt_subnet"
+SEC_NAME="my_sec"
 INSTANCE_NAME="myinstance"
 IMAGE_ID="ami-0d593311db5abb72b"
 TYPE="t2.micro"
@@ -169,6 +169,11 @@ aws ec2 create-tags \
   --tags "Key=Name,Value=$INSTANCE_NAME" \
   --region $AWS_REGION
 echo "  EC2 ID '$EC2_ID' NAMED as '$INSTANCE_NAME'."
+
+
+
+
+
 
 
 
