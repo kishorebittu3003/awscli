@@ -1,0 +1,7 @@
+ region          = "us-west-2"
+ vpc_cidrblock   = "192.168.0.0/16"
+ sub_cidr        = "192.168.0.0/24"
+ instance_type   = "t2.micro"
+ key_name        = "key"
+ az_zones        = "us-west-2a"
+ ami_id          = "ami-08608030e1ef58d8e"
